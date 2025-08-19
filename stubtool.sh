@@ -158,5 +158,3 @@ for key in ${!presets[@]}; do
         fi
     done
 done
-
-# efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "ARCH" --loader /vmlinuz-linux --unicode "root=UUID=a02d9b70-63e7-495f-94e9-4927bb1bc307 resume=UUID=a305ea8b-b186-49f2-8153-5744e981739e rw rootflags=subvol=/@ initrd=\initramfs-linux.img"
