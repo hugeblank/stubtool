@@ -104,6 +104,9 @@ elif [ -z "$swap" ]; then
             else
                 echo "Invalid device, choose a swap partition."
             fi
+        else
+            resume=0
+            echo "No swap partition selected, skipping."
         fi
     done
 fi
